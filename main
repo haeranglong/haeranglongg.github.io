@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fashion Collection Showcase</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+    body {
+      font-family: 'Tangerine';
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 100px;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 60px;
+      color: black;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+    }
+
+    .collection-info a {
+    text-decoration: none;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 50px;
+      width: 400px;
+      max-height: 200px;
+      border: 3px solid black;
+      border-radius: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Fashion Collection Showcase</h1>
+  <div class="collection-container">
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <a href="burberry.html">
+        <p>Burberry</p>
+      </a>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <a href="marni.html">
+        <p>Marni</p>
+      </a>
+    </div>
+
+    <!-- Collection 3 -->
+    <div class="collection-info">
+      <a href="saintlaurent.html">
+        <p>Saint Laurent</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
