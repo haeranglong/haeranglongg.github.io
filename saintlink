@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saint Laurent</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+    body {
+      font-family: 'Tangerine';
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 100px;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 50px;
+      color: black;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .collection-info a {
+    text-decoration: none;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 20px;
+      border: 3px solid black;
+      border-radius: 15px;
+    }
+
+    .collection-info img {
+      max-width: 300px;
+      max-height: 600px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <h1>Saint Laurent</h1>
+  <div class="collection-container">
+
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <a href="womon.html">
+        <p>Womon's Collection</p>
+        <img src="wo.jpg" alt="Collection 1">
+      </a>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <a href="man.html">
+        <p>Man's Collection</p>
+        <img src="ma.jpg" alt="Collection 1">
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
