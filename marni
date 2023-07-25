@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marni Collection</title>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+   
+    @font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+    }
+
+    body {
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .collection-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 10px;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .collection-info1 a {
+    text-decoration: none;
+    }
+
+    .collection-info1 {
+      text-align: center;
+      margin: 20px;
+      border: 1px solid black;
+    }
+
+    .collection-info img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    h1 {
+      font-family: 'Tangerine', cursive;
+      text-align: center;
+      font-size: 80px;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p2 {
+      font-size: 30px;
+      color: black;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p1 {
+      font-size: 14px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Marni Collection</h1>
+  <div class="collection-container">
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <img src="마1.jpg" alt="Collection 1">
+      <h2>
+        <2023 Marni fall-winter collection 05>
+      </h2>
+      <p1>
+        '두 발로 단단히 땅을 딛다: 그러나 사라진 양말 한 짝.'
+      <p>
+        다섯 번째 의상에서는 생동감 넘치는 옐로 컬러팔레트를 사용했다.<br>테일러링 아이템으로 사용한 코트는 이불 같이 오버사이즈로 구성되었으며,<br>니트웨어는 부풀어 오른 모헤어 스웨터로 이루어졌다.
+      </p>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <img src="마2.jpg" alt="Collection 2">
+      <h2>
+        <2023 Marni fall-winter collection 28>
+      </h2>
+      <p1>
+        '두 발로 단단히 땅을 딛다: 그러나 사라진 양말 한 짝.'
+      <p>
+      <p>
+        스물 여덟 번째 의상에서는 생동감 넘치는 레드 컬러팔레트를 사용했다.<br>오버사이즈로 구성된 니트웨어는 부풀어 오른 모헤어 스웨터이며,<br>과장된 실루엣의 팬츠와 폴카도트에 주목할 만하다.
+      </p>
+    </div>
+
+    <!-- Collection 3 -->
+    <div class="collection-info">
+      <img src="마3.jpg" alt="Collection 3">
+      <h2>
+        <2023 Marni fall-winter collection 40>
+      </h2>
+      <p1>
+        '두 발로 단단히 땅을 딛다: 그러나 사라진 양말 한 짝.'
+      <p>
+      <p>
+        마흔 번째 의상에서는 생동감 넘치는 블랙 앤 화이트 컬러팔레트를 사용했다.<br>오버사이즈이지만 우아한 라인이 강조되는 드레스가 돋보이며,<br>블랙 앤 화이트 라인을 교차하여 리듬을 강조한 것에 주목할 만하다.
+      </p>
+    </div>
+  </div>
+
+  </div>
+    <div class="collection-container1">
+      <div class="collection-info1">
+        <a href="https://www.marni.com/ko-kr/marni-fw23-vol2.html">
+        <p2>Marni Fashion Show</p2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
