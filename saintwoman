@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saint Laurent Womon's Collection</title>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+   
+    @font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+    }
+
+    body {
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .collection-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 10px;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .collection-info1 a {
+    text-decoration: none;
+    }
+
+    .collection-info1 {
+      text-align: center;
+      margin: 20px;
+      border: 1px solid black;
+    }
+
+    .collection-info img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 70px;
+      font-family: 'Tangerine', cursive;
+      background: linear-gradient(45deg, white 10px, transparent 0), linear-gradient(135deg, rgb(170, 167, 167) 10px, white 0);
+      background-size: 100px 25px;
+      background-position: 0 0, 10px 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p2 {
+      font-size: 30px;
+      color: black;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p1 {
+      font-size: 14px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Saint Laurent Womon's Collection</h1>
+  <div class="collection-container">
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <img src="우1.jpg" alt="Collection 1">
+      <h2>
+        <2023 Saint Laurent Winter collection 04>
+      </h2>
+      <p1>
+        '생 로랑을 입는 여성들은 기분에 따라 몸을 드러내거나 가릴 수 있다.'<br>- 안토니 바카렐로, 생 로랑 크리에이티브 디렉터
+      </p1>
+      <p>
+        네 번째 의상에서는 직장과 화려한 파티에서 모두 입을 수 있을 법한<br>'여성 보스'의 옷장을 구현해낸 비즈니스 수트가 돋보인다.<br>특히나 남성복에서 자주 사용하는 파워풀한 실루엣을 표현해냈다.
+      </p>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <img src="우2.jpg" alt="Collection 2">
+      <h2>
+        <2023 Saint Laurent Winter collection 11>
+      </h2>
+      <p1>
+        '생 로랑을 입는 여성들은 기분에 따라 몸을 드러내거나 가릴 수 있다.'<br>- 안토니 바카렐로, 생 로랑 크리에이티브 디렉터
+      </p1>
+      <p>
+        열한 번째 의상에서는 흘러내리는 실크 소재의 A라인 드레스가 돋보인다.<br>이또한 남성복에서 자주 사용하는 실루엣을 여성성을 극대화하는<br>소재로 제작해 주체적이면서도 새로운 여성성을 표현했다.
+      </p>
+    </div>
+
+    <!-- Collection 3 -->
+    <div class="collection-info">
+      <img src="우3.jpg" alt="Collection 3">
+      <h2>
+        <2023 Saint Laurent Winter collection 35>
+      </h2>
+      <p1>
+        '생 로랑을 입는 여성들은 기분에 따라 몸을 드러내거나 가릴 수 있다.'<br>- 안토니 바카렐로, 생 로랑 크리에이티브 디렉터
+      </p1>
+      <p>
+        서른다섯 번째 의상에서는 남성성이 드러나는 블레이저가 돋보인다.<br>파워풀한 실루엣을 가진 블레이저에 얇은 스타킹을 매치하여<br>새로운 여성성이 표현되었다고 할 수 있다.
+      </p>
+    </div>
+  </div>
+
+  </div>
+    <div class="collection-container1">
+      <div class="collection-info1">
+        <a href="https://www.ysl.com/ko-kr/displayname-collections-women-winter-23-fashion-show">
+        <p2>Saint Laurent Woman's Fashion Show</p2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
