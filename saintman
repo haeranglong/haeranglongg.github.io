@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saint Laurent Man's Collection</title>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+   
+    @font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+    }
+
+    body {
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .collection-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 10px;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .collection-info1 a {
+    text-decoration: none;
+    }
+
+    .collection-info1 {
+      text-align: center;
+      margin: 20px;
+      border: 1px solid black;
+    }
+
+    .collection-info img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 70px;
+      font-family: 'Tangerine', cursive;
+      background: linear-gradient(45deg, white 10px, transparent 0), linear-gradient(135deg, rgb(170, 167, 167) 10px, white 0);
+      background-size: 100px 25px;
+      background-position: 0 0, 10px 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p2 {
+      font-size: 30px;
+      color: black;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p1 {
+      font-size: 14px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Saint Laurent Man's Collection</h1>
+  <div class="collection-container">
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <img src="맨1.jpg" alt="Collection 1">
+      <h2>
+        <2023 Saint Laurent Winter collection 01>
+      </h2>
+      <p1>
+        '남성과 여성의 경계, 그리고 텍스처의 대비.'
+      </p1>
+      <p>
+        첫 번째 의상에서는 차분한 시폰 셔츠로 몸을 감싸 완벽한 비율이<br>드러나도록 했다. 이를 통해 생 로랑 여성복에 남성적 요소가<br>늘 영향을 미치듯, 여성성과 남성성의 상호적 관계가<br>남성 컬렉션에서도 드러남을 알 수 있다.
+      </p>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <img src="맨2.jpg" alt="Collection 16">
+      <h2>
+        <2023 Saint Laurent Winter collection 06>
+      </h2>
+      <p1>
+        '남성과 여성의 경계, 그리고 텍스처의 대비.'
+      </p1>
+      <p>
+        여섯 번째 의상에서는 여성용 복장인 튜닉의 형식이 드러나는 허리에<br>벨트를 두른 후드 니트를 볼 수 있다. 또한 코트는 새롭고 풍만한 볼륨감으로<br>선보였다. 기존의 브랜드 코트를 새로운 형태와 길이로 재해석한 피스가<br>이것이며, 충분히 주목할 만하다.
+      </p>
+    </div>
+
+    <!-- Collection 3 -->
+    <div class="collection-info">
+      <img src="맨3.jpg" alt="Collection 32">
+      <h2>
+        <2023 Saint Laurent Winter collection 15>
+      </h2>
+      <p1>
+        '남성과 여성의 경계, 그리고 텍스처의 대비.'
+      </p1>
+      <p>
+        서른 두 번째 의상에서는 머리와 얼굴을 덮어 몸을 감싸는<br>카굴(Cagoule)을 통해 남성성과 여성성의 '유동성'을 드러냈다.<br>모헤어 소재로 된 상의에 새틴 소재의 하의를 매치하여<br>하드한 텍스처와 부드러운 패브릭의 대비를 드러내어 컬렉션을 관통시켰다.
+      </p>
+    </div>
+
+  </div>
+
+  </div>
+    <div class="collection-container1">
+      <div class="collection-info1">
+        <a href="https://www.ysl.com/ko-kr/displayname-collections-page-show-mwinter23">
+        <p2>Saint Laurent Man's Fashion Show</p2>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
