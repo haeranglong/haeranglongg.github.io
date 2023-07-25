@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Burberry Collection</title>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+   
+    @font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+    }
+
+    body {
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+    .collection-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .collection-container1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-top: 10px;
+    }
+
+    .collection-info {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .collection-info1 a {
+    text-decoration: none;
+    }
+
+    .collection-info1 {
+      text-align: center;
+      margin: 20px;
+      border: 1px solid black;
+    }
+
+    .collection-info img {
+      max-width: 500px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 80px;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      margin: 0;
+      font-family: 'Tangerine', cursive;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p2 {
+      font-size: 30px;
+      color: black;
+      font-family: 'Tangerine', cursive;
+    }
+
+    p1 {
+      font-size: 14px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 16px;
+      font-family: 'S-CoreDream-3Light', sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Burberry Collection</h1>
+  <div class="collection-container">
+    <!-- Collection 1 -->
+    <div class="collection-info">
+      <img src="버1.jpg" alt="Collection 1">
+      <img src="버1-1.jpg" alt="Collection 1">
+      <h2>
+        <2023 Burberry spring-summer collection 02>
+      </h2>
+      <p1>
+        '이 컬렉션은 인류가 조우하고 서로 다른 세계의<br>충돌이 일어나는 지점인 해변이라는 장소에서 영감을 얻었습니다.'<br>- 리카르도 티시, 버버리 크리에이티브 총괄 책임자
+      </p1>
+      <p>
+        두 번째 의상에서는 버버리의 아이콘, 트렌치코트가 강조되었다.<br>트렌치코트는 햇볕에 그을린 듯한 독특한 디테일을 섬세하게 담아<br>오버사이즈와 해체적 실루엣으로 업데이트 되었다고 할 수 있다.
+      </p>
+    </div>
+
+    <!-- Collection 2 -->
+    <div class="collection-info">
+      <img src="버2.jpg" alt="Collection 2">
+      <img src="버2-2.jpg" alt="Collection 2">
+      <h2>
+        <2023 Burberry spring-summer collection 06>
+      </h2>
+      <p1>
+        '이 컬렉션은 인류가 조우하고 서로 다른 세계의<br>충돌이 일어나는 지점인 해변이라는 장소에서 영감을 얻었습니다.'<br>- 리카르도 티시, 버버리 크리에이티브 총괄 책임자
+      </p1>
+      <p>
+        여섯 번째 의상에서는 해변이라는 모티프를 기발하게 재구성해 풀어냈다.<br>크리스털 장식 클러치 백을 암 밴드 스타일로 연출하여 선보이며,<br>해변에서 영감을 얻어 열림과 연결이라는 개념을 담아냈다.
+      </p>
+    </div>
+
+    <!-- Collection 3 -->
+    <div class="collection-info">
+      <img src="버3.jpg" alt="Collection 3">
+      <img src="버3-3.jpg" alt="Collection 3">
+      <h2>
+        <2023 Burberry spring-summer collection 15>
+      </h2>
+      <p1>
+        '이 컬렉션은 인류가 조우하고 서로 다른 세계의<br>충돌이 일어나는 지점인 해변이라는 장소에서 영감을 얻었습니다.'<br>- 리카르도 티시, 버버리 크리에이티브 총괄 책임자
+      </p1>
+      <p>
+        열다섯 번째 의상에서는 사회의 상반된 요소들이 모여 조화를 이루도록 했다.<br>이중성의 테마를 이어가서 스포티한 감각과 격식 있는 코드가 균형을 이루어,<br>정교한 테일러링과 스트리트웨어가 레이어링된 스타일을 선보인다.
+      </p>
+    </div>
+  </div>
+
+  </div>
+    <div class="collection-container1">
+      <div class="collection-info1">
+        <a href="https://kr.burberry.com/c/shows/spring-summer-2023/">
+        <p2>Burberry Fashion Show</p2>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
